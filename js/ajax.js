@@ -77,7 +77,7 @@
 		if (ajaxSend.substring(ajaxSend.length - 1) == "/"){
 			ajaxSend = ajaxSend.substring(0, ajaxSend.length - 1);
 		}
-		if (visitType == 'firstVisit' || ajaxSend == HOME){
+		if (ajaxSend == HOME){
 			$(window).resize();
 			$('#main_content').data('jsp').reinitialise();
 			return;
@@ -161,12 +161,11 @@
 		}
 		$(window).resize();
 		$('#main_content').data('jsp').reinitialise();
+		$('#main_content').data('jsp').scrollTo(0,0);
 		function resize(){
 			$('#main_content').data('jsp').reinitialise();
 			$(window).resize();
 		}
-		
-		//positionQuote("position");
 	}
 	
 	});

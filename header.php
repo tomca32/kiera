@@ -46,5 +46,8 @@
 	</header>
 	<!-- /Header -->
 	<div class="container" id="container"> <!-- container for AJAX -->
-		<span id="close_button"><a href="<?php bloginfo('url'); ?>/">X</a></span>
+		<?php if ($kt_close) { ?>
+			<span id="close_button"><a href="<?php bloginfo('url'); ?>/">X</a></span>
+		<?php } ?>
+			
 		<div id="main_content">
