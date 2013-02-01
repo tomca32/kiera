@@ -45,8 +45,12 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding: 20px;
 }
+/* line 39, ../sass/screen.scss */
+.menu ul li a:hover {
+  text-decoration: none;
+}
 
-/* line 43, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 body {
   height: 100%;
   background-image: url("../img/default_bg.jpg");
@@ -56,7 +60,7 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 #cover {
   background: white;
   position: absolute;
@@ -66,22 +70,22 @@ body {
   z-index: 100;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 header {
   width: 100%;
 }
-/* line 65, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 header #title {
   position: absolute;
   top: 55%;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 h1 {
   font-size: 80px;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 #container {
   position: absolute;
   background: url(../img/main_bg.png);
@@ -92,16 +96,16 @@ h1 {
   font-size: 14px;
   margin: 0 25px 0 25px;
 }
-/* line 85, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 #container img {
   margin: 0 10px 10px 0;
 }
-/* line 88, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 #container p {
   margin: 0 10px 10px 0;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 footer {
   left: 0px;
   position: absolute;
@@ -113,20 +117,20 @@ footer {
   color: white;
   z-index: 1000;
 }
-/* line 106, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 footer p {
   margin: 5px;
 }
-/* line 109, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 footer .footer_left {
   float: left;
 }
-/* line 112, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 footer .footer_right {
   float: right;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 #slidecaption {
   background: url(../img/main_bg.png);
   padding: 20px;
@@ -139,39 +143,39 @@ footer .footer_right {
   border: 1px solid white;
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 #main_content {
   height: 100%;
   outline: none;
   margin-top: 5px;
 }
 
-/* line 135, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 .left {
   width: 20%;
   display: block;
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 td:first-child {
   width: 25%;
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 145, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #close_button {
   font-size: 12px;
   padding: 2px 4px 2px 4px;
   color: #acacac !important;
   border: 1px solid;
 }
-/* line 150, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 #close_button a {
   color: #acacac;
   text-decoration: none;
 }
-/* line 154, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 #close_button a:hover {
   color: whitesmoke;
 }

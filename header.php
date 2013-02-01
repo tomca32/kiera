@@ -25,6 +25,8 @@
 		MENU = "<?php echo $kt_menu_position; ?>";
 		TITLE = "<?php echo $kt_title_position; ?>";
 		CONTENT = "<?php echo $kt_content_position; ?>";
+		ANIMATED_MENU = "<?php echo $kt_animated_menu; ?>";
+		
 	</script>
 </head>
 <body <?php body_class(); ?>>
