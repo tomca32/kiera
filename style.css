@@ -1,0 +1,141 @@
+/*
+Theme Name: Kiera
+Theme URI: http://gandzo.com
+Description: Simple but elegant Ajax-powered portfolio theme. 
+Version: 0.5 Alpha
+Author: Tomislav Pesut (@tomca32)
+Author URI: http://gandzo.com
+Tags: dark, grey, flexible-width, custom-background
+*/
+/* =============================================================================
+   General Styles
+   ========================================================================== */
+@font-face {
+  font-family: 'YanoneKaffeesatz';
+  src: url("fonts/YanoneKaffeesatz-RegularHR.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Global Box Sizing and Font-Smoothing */
+/* line 22, ../sass/style.scss */
+*, *:after, *:before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 33, ../sass/style.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* Serve Helvetica Neue, with Helvetica fallbacks to Arial */
+  font-size: 11px;
+  font-weight: 300;
+  /* Better supported than 'lighter' attribute */
+  line-height: 18px;
+  color: #444;
+  /* Lighter on the eyes than #000 Black */
+}
+
+/* =============================================================================
+   WordPress Core CSS Styles
+   ========================================================================== */
+/* line 46, ../sass/style.scss */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 47, ../sass/style.scss */
+.aligncenter, div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+/* line 48, ../sass/style.scss */
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 49, ../sass/style.scss */
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 50, ../sass/style.scss */
+.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+/* line 51, ../sass/style.scss */
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 52, ../sass/style.scss */
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 53, ../sass/style.scss */
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 54, ../sass/style.scss */
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 55, ../sass/style.scss */
+.wp-caption {
+  background: #FFF;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+/* line 56, ../sass/style.scss */
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 57, ../sass/style.scss */
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 58, ../sass/style.scss */
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+/* line 59, ../sass/style.scss */
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+/* line 60, ../sass/style.scss */
+.wp-caption p.wp-caption-text, .gallery-caption {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}

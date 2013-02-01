@@ -1,0 +1,177 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@font-face {
+  font-family: "Roboto";
+  src: url('fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+/* line 10, ../sass/screen.scss */
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 14, ../sass/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 100 !important;
+}
+
+/* line 19, ../sass/screen.scss */
+.menu {
+  bottom: 10%;
+  position: absolute;
+  font-family: "YanoneKaffeesatz", Arial, sans-serif;
+  font-size: 30px;
+  color: #444;
+}
+/* line 27, ../sass/screen.scss */
+.menu ul {
+  list-style: none;
+}
+/* line 29, ../sass/screen.scss */
+.menu ul li {
+  background: url(../img/main_bg.png);
+  margin-bottom: 5px;
+}
+/* line 32, ../sass/screen.scss */
+.menu ul li a {
+  font-family: "Lato", sans-serif;
+  color: whitesmoke;
+  width: 100%;
+  display: block;
+  padding: 20px;
+}
+
+/* line 43, ../sass/screen.scss */
+body {
+  height: 100%;
+  background-image: url("../img/default_bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 0px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+/* line 53, ../sass/screen.scss */
+#cover {
+  background: white;
+  position: absolute;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+/* line 62, ../sass/screen.scss */
+header {
+  width: 100%;
+}
+/* line 65, ../sass/screen.scss */
+header #title {
+  position: absolute;
+  top: 55%;
+}
+
+/* line 73, ../sass/screen.scss */
+h1 {
+  font-size: 80px;
+}
+
+/* line 76, ../sass/screen.scss */
+#container {
+  position: absolute;
+  background: url(../img/main_bg.png);
+  border: 1px solid black;
+  padding: 10px;
+  overflow: hidden;
+  color: whitesmoke;
+  font-size: 14px;
+  margin: 0 25px 0 25px;
+}
+/* line 85, ../sass/screen.scss */
+#container img {
+  margin: 0 10px 10px 0;
+}
+/* line 88, ../sass/screen.scss */
+#container p {
+  margin: 0 10px 10px 0;
+}
+
+/* line 95, ../sass/screen.scss */
+footer {
+  left: 0px;
+  position: absolute;
+  bottom: 0px;
+  background: black;
+  opacity: 0.8;
+  opacity: 0.8;
+  width: 100%;
+  color: white;
+  z-index: 1000;
+}
+/* line 106, ../sass/screen.scss */
+footer p {
+  margin: 5px;
+}
+/* line 109, ../sass/screen.scss */
+footer .footer_left {
+  float: left;
+}
+/* line 112, ../sass/screen.scss */
+footer .footer_right {
+  float: right;
+}
+
+/* line 118, ../sass/screen.scss */
+#slidecaption {
+  background: url(../img/main_bg.png);
+  padding: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  opacity: 0.6;
+  color: #acacac !important;
+  font-size: 20px;
+  border: 1px solid white;
+}
+
+/* line 129, ../sass/screen.scss */
+#main_content {
+  height: 100%;
+  outline: none;
+  margin-top: 5px;
+}
+
+/* line 135, ../sass/screen.scss */
+.left {
+  width: 20%;
+  display: block;
+}
+
+/* line 139, ../sass/screen.scss */
+td:first-child {
+  width: 25%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 145, ../sass/screen.scss */
+#close_button {
+  font-size: 12px;
+  padding: 2px 4px 2px 4px;
+  color: #acacac !important;
+  border: 1px solid;
+}
+/* line 150, ../sass/screen.scss */
+#close_button a {
+  color: #acacac;
+  text-decoration: none;
+}
+/* line 154, ../sass/screen.scss */
+#close_button a:hover {
+  color: whitesmoke;
+}
